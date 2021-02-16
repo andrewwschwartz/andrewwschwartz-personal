@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- 
+  SITE TODO:
+  - Clean up CSS
+  - Fix Contact section
+  - Add in better portfolio items
+  - Update photo
+ -->
   <head>
 
     <meta charset="utf-8">
@@ -31,7 +37,7 @@
   <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <!-- <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">Andrew Schwartz</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,7 +60,7 @@
           </ul>
         </div>
       </div>
-    </nav>
+    </nav> -->
 <!-- Landing -->
     <header class="masthead">
       <div class="header-content">
@@ -62,13 +68,32 @@
           <div class="container">
             <div class="row align-items-center">
               <div class="col-md-6">
-                <img src="img/me.jpg" style="width: 20em; border: 8px solid #e9ecef;box-shadow: 7px 7px 20px 3px #00000069;">
+                <img src="img/me-sm.jpg" style="width: 20em; border: 8px solid #e9ecef;box-shadow: 7px 7px 20px 3px #00000069;">
               </div>
               <div class="col-md-4">
                 <h1 id="homeHeading">Welcome</h1>
                 <hr>
-                <p>My name is Andrew and this is my website.</p>
-                <a class="btn btn-default btn-xl js-scroll-trigger" href="#about">Find Out More</a>  
+                <p>My name is Andrew and this is my website.
+                  <br>
+                  <br>
+                  <i>Let's get in touch!</i>
+                </p>
+                <!-- 
+                  TODO:
+                  - Change contact section into <ul>
+                 -->
+                <div class="row">
+                  <div class="col-sm-4">
+                    <a href="mailto:andrewwschwartz@gmail.com" class="fa fa-envelope-o fa-2x contact"></a>
+                  </div>
+                  <div class="col-sm-4">
+                    <a href="https://www.linkedin.com/in/andrew-w-schwartz/" class="fa fa-linkedin fa-2x contact"></a>
+                  </div>
+                  <div class="col-sm-4">
+                    <a href="https://www.linkedin.com/in/andrew-w-schwartz/" class="fa fa-twitter fa-2x contact"></a>
+                  </div>
+                </div>
+                <!-- <a class="btn btn-default btn-xl js-scroll-trigger" href="#about">Find Out More</a>   -->
               </div>
             </div>
           </div>
@@ -76,240 +101,14 @@
       </div>
     </header>
 <!-- About me Section -->
-    <section class="bg-primary" id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-9 mx-auto text-center">
-            <h2 class="section-heading text-white">A little about me...</h2>
-            <hr class="light">
-            <p class="text-faded">I'm a San Francisco native. I love California, but I am currently living it up in the Rocky Mountains studying Information Systems at Brigham Young University in Provo, Utah. I have a passion for learning, programming, performing data analysis, Hawaiian shirts, Brazil (specifically Sao Paulo), and music. I am always working on projects to learn new skills and make cool things!</p>
-            <a class="btn btn-default btn-xl js-scroll-trigger" href="#services" style="margin-top: 1em;">Check out my qualifications!</a>
-          </div>
-        </div>
-      </div>
-    </section>
 <!--Resume Section -->
-    <section id="services">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h1 class="section-heading">Resume</h2>
-            <hr class="primary">
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box">
-              <i class="fa fa-4x fa-graduation-cap text-primary sr-icons"></i>
-              <h3>Education</h3>
-              <p class="text-muted">
-              <h5><a href="https://marriottschool.byu.edu/">Brigham Young University - Marriott School of Business</a></h5>
-              	<em>BS in Information Systems, Portuguese Minor</em>
-              	<ul style="text-align: left;">
-              	<li>Cumulitive GPA 3.54</li>
-              	<li>Association for Information Systems: A-Team Member</li>
-              </ul>
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box">
-              <i class="fa fa-4x fa-handshake-o text-primary sr-icons"></i>
-              <h3>Experience</h3>
-            <div style="text-align: left;">
-              <h5>Information Systems Research Assistant</h5>
-              <p class="text-muted">Brigham Young University</p>
-              <p class="text-muted">August 2017 - Present</p>
-              <br>
-              <h5>Technology Intern</h5>
-              <p class="text-muted">USP - <a href="http://www.ieb.usp.br">Institute of Brazilian Studies</a></p>
-              <p class="text-muted">Summer 2017</p>
-              <br>
-              <h5>Student Intern</h5>
-              <p class="text-muted"><a href="http://galorath.com/">Galorath Inc.</a></p>
-              <p class="text-muted">January 2017 - April 2017</p>
-              <br>
-              <h5><a href="https://www.nationalservice.gov/programs/americorps">AmeriCorps Member</a>/STEM Teacher</h5>
-              <p class="text-muted"><a href="http://bgcutah.org/stem">Boys and Girls Club of Utah County</a></p>
-              <p class="text-muted">August 2016 - April 2017</p>
-              <br>
-              <em>
-              	See detailed descriptions on <a href="https://www.linkedin.com/in/andrew-w-schwartz/">LinkedIn</a> or download my resume <a href="docs/Andrew-Schwartz-Resume.pdf" download="">here</a>.
-              </em>
-
-          	</div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box">
-              <i class="fa fa-4x fa-check-square-o text-primary sr-icons"></i>
-              <h3>Skills</h3>
-              <ul style="text-align: left; line-height: 3em;">
-              	<li>Programming(C#, Java, SQL)</li>
-              	<li>HTML5/CSS3</li>
-              	<li>JavaScript/jQuery</li>
-              	<li>ASP.NET MVC</li>
-              	<li>MS SQL Server</li>
-              	<li>Experienced in PHP</li>
-              	<li>Fluent in Portuguese</li>
-              	<li>Proficient in Spanish</li>
-              </ul>
-
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box">
-              <i class="fa fa-4x fa-star-o text-primary sr-icons"></i>
-              <h3>Acheivements</h3>
-              <br>
-              <h5><a href="https://www.facebook.com/userveutah/photos/a.324277060947606.73423.127912627250718/1455659957809305/?type=3&permPage=1">
-              AmeriCorps Utah Member of the Month: February</a></h5>
-              <br>
-              <h5><a href="http://byuporthonors.weebly.com">Portuguese Honor Society: Phi Lambda Beta</a></h5>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-<!-- Portfolio Section-->
-
-	<section class="p-0" id="portfolio">
-      <div class="container-fluid">
-        <div class="row text-center">
-          <div class="col-md-12">
-            <h1 class="section-heading">Portfolio</h1>
-            <hr class="primary">              
-          </div>
-        </div>
-        <div class="row no-gutter text-center">
-          <div class="col-lg-4">
-            <a class="portfolio-box" href="http://intexnorthwestsolution.azurewebsites.net/" >
-             <div class="portfolio-object" style="background-image: url(img/portfolio/thumbnails/1.png);"></div>
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category port-category">
-                    ASP.NET MVC Web Application 
-                  </div>
-                  <div class="project-name">
-                    Integrated Exercise Mockup
-                    <p style="font-size: 14px;">As part of BYU's Information Systems Integrated Exercise, I worked in a team to create a proposed system for a given case. Here you can log in to our proposed web application using the username "client" and password "client" to see a mockup of a client accessing information. Using the username "management" with the password "northwest" allows you to view the system from an employee perspective.</p>
-                  </div>
-                </div>
-              </div>
-            </a>
-           </div>
-          <div class="col-lg-4">
-            <a class="portfolio-box" href="http://asportfolioblowout.azurewebsites.net/" >
-            	<div class="portfolio-object" style="background-image: url(img/portfolio/thumbnails/2.png);"></div>
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category port-category">
-                    ASP.NET MVC Web Application 
-                  </div>
-                  <div class="project-name">
-                    School Project: Blowout
-                    <p>This project involved gaining familiarity with ASP.Net MVC. In this example a user is to be able to rent an instrument, which will then update a database with the user information and order information. Included is an authorization feature that gives the ability to update data in the database.</p>
-                  </div>
-                </div>
-              </div>
-            </a>
-           </div>
-          <div class="col-lg-4">
-            <a class="portfolio-box" href="http://awsspotifytestapp.azurewebsites.net/" >
-            	<div class="portfolio-object" style="background-image: url(img/portfolio/thumbnails/3.png);"></div>
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category port-category">
-                    ASP.NET MVC Web Application 
-                  </div>
-                  <div class="project-name">
-                    Playing with the Spotify API in MVC
-                    <p>I wanted to get familiar with using the Spotify API while also using ASP.Net MVC as I am familiar in C#. So far, I have been able to add an authorization feature that will give the user the ability to access thier own information. Currently it only displays public playlists but when I get more time I plan to expand on this project.</p>
-                  </div>
-                </div>
-              </div>
-            </a>
-           </div>
-          <div class="col-lg-4">
-            <a class="portfolio-box" href="http://200.144.255.38/bibliografia/index_cordel.php" >
-             <div class="portfolio-object" style="background-image: url(img/portfolio/thumbnails/4.png);"></div>
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category port-category">
-                    Web Portal
-                  </div>
-                  <div class="project-name">
-                    USP Institute of Brazilian Studies: Portal de Literatura de Cordel
-                    <p>As a student intern at the University of Sao Paulo, I was able to assist in the design and redevelopment of the Institute of Brazilian Studies' Cordel Literature Web Portal. I gained exposure to PHP, and utilized it along with HTML and CSS to create this web portal </p>
-                  </div>
-                </div>
-              </div>
-            </a>
-           </div>
-          <div class="col-lg-4">
-            <a class="portfolio-box" href="http://natelschwartz.com/" >
-             <div class="portfolio-object" style="background-image: url(img/portfolio/thumbnails/5.png);"></div>
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category port-category">
-                    Website 
-                  </div>
-                  <div class="project-name">
-                     Nate Schwartz's Online Portfolio
-                     <p>This showcases my ability to incorporate Bootstrap, with my knowledge of HTML and CSS to make a simple portfolio to showcase academic works.</p>
-                  </div>
-                </div>
-              </div>
-            </a>
-           </div>
-          <div class="col-lg-4">
-            <a class="portfolio-box" href="http://podboardingco.com/" >
-             <div class="portfolio-object" style="background-image: url(img/portfolio/thumbnails/6.png);"></div>
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category port-category">
-                    My First Deployed Website 
-                  </div>
-                  <div class="project-name">
-                    Pod Boarding Co. Website and Online Store
-                    <p>This was the first ever contracted website I created. It includes info about the company and a working online store. </p>
-                  </div>
-                </div>
-              </div>
-            </a>
-           </div>
-          </div>
-         </div>
-    </section>
-
+<!-- Portfolio Section
+  TODO:
+    - IEB Portal do Cordel https://usp.br/portaldocordel/index.php
+    - School Projects
+    - Virtual MET
+-->
 <!-- Contact Section -->
-    <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 css="section-heading">Let's Get In Touch!</h2>
-            <hr class="primary">
-            
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4 ml-auto text-center">
-            <i class="fa fa-phone fa-3x sr-contact" style="color: #5cabff;"></i>
-            <p>(925)323-3626</p>
-          </div>
-          <div class="col-sm-4 mr-auto text-center">
-            <a href="mailto:andrewwschwartz@gmail.com" class="fa fa-envelope-o fa-3x sr-contact"></a>
-          </div>
-          <div class="col-sm-4 mr-auto text-center">
-            <a href="https://www.linkedin.com/in/andrew-w-schwartz/" class="fa fa-linkedin fa-3x sr-contact"></a>
-          </div>          
-        </div>
-      </div>
-    </section>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>

@@ -168,10 +168,15 @@ header.masthead {
     header.masthead .header-content .header-content-inner hr {
       margin: 30px auto; }
     header.masthead .header-content .header-content-inner p {
+      text-align: left;
       font-size: 16px;
       font-weight: 300;
       margin-bottom: 50px;
       color: rgba(255, 255, 255); }
+      header.masthead .header-content .header-content-inner .contact {
+        background: rgba(255, 255, 255);
+        padding: 20px;
+        border-radius: 50px; }
   @media (min-width: 768px) {
     header.masthead {
       height: 100%;
