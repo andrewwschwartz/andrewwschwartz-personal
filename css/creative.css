@@ -20,7 +20,7 @@ hr.light {
   border-color: #5cabff; }
 
 a {
-  color: #5cabff;
+  color: #002e5d;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s; }
@@ -148,7 +148,7 @@ header.masthead {
   min-height: auto;
   text-align: center;
   color: white;
-    background-color: #5cabff;
+    background-color: #002e5d;
     background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
